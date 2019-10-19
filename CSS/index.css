@@ -144,7 +144,7 @@ h5 {
   color: black;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -155,4 +155,41 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+.container {
+  max-width: 70%;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-bar {
+  border: 1px solid blue;
+  margin-top: 1.5%;
+}
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.nav-bar a {
+  font-size: 1.6rem;
+}
+.home {
+  margin-top: 5%;
+}
+.home header h1 {
+  border: 1px solid red;
+}
+.home header h1 div {
+  border: 1px solid green;
+  padding-left: 6%;
+  margin-top: 2%;
+}
+.home header img {
+  border: 1px solid green;
+  width: 65%;
+  margin: 10% 0 15% 35%;
+}
+.home section h1 {
+  text-align: center;
+  margin-bottom: 15%;
 }
