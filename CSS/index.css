@@ -134,6 +134,7 @@ html {
 }
 html,
 body {
+  font-family: 'Ubuntu', sans-serif;
   color: black;
 }
 h1,
@@ -141,6 +142,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: 'Russo One', sans-serif;
   color: black;
 }
 h1 {
@@ -150,7 +152,7 @@ h2 {
   font-size: 3.2rem;
 }
 h3 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 p {
   font-size: 2vw;
@@ -162,8 +164,7 @@ p {
   margin: 0 auto;
 }
 .nav-bar {
-  border: 1px solid blue;
-  margin-top: 1.5%;
+  margin-top: 2.5%;
 }
 .nav-bar nav {
   display: flex;
@@ -176,43 +177,39 @@ p {
 .home {
   margin-top: 5%;
 }
-.home header h1 {
-  border: 1px solid red;
-}
 .home header h1 div {
-  border: 1px solid green;
   padding-left: 6%;
   margin-top: 2%;
 }
 .home header img {
-  border: 1px solid green;
   width: 65%;
   margin: 10% 0 15% 35%;
 }
-.home section h1 {
+.home .serve_you h1 {
   text-align: center;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
 }
-.home section .i_am {
+.home .serve_you .i_am {
   display: flex;
   justify-content: space-between;
 }
-.home section .i_am div {
-  width: 28%;
+.home .serve_you .i_am div {
+  width: 25%;
   margin-bottom: 25%;
-  border: 1px solid green;
 }
-.home section .i_am div h3 {
-  margin-bottom: 5%;
+.home .serve_you .i_am div i {
+  margin-bottom: 15%;
 }
-.home section .btn {
-  border: 1px solid green;
+.home .serve_you .i_am div h3 {
+  margin-bottom: 8%;
+}
+.home .serve_you .btn {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 25%;
 }
-.home section .btn button {
+.home .serve_you .btn button {
   font-size: 2vw;
   padding: 1% 2%;
 }
