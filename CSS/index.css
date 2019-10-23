@@ -241,6 +241,11 @@ p {
     justify-content: space-around;
   }
 }
+@media (max-width: 500px) {
+  .nav-bar .tablet_nav {
+    margin-top: 3.5%;
+  }
+}
 .nav-bar a {
   font-size: 2rem;
   text-decoration: none;
@@ -373,7 +378,7 @@ p {
   margin-bottom: 25%;
 }
 .home .serve_you .btn button {
-  font-size: 2vw;
+  font-size: 3em;
   padding: 1% 5%;
   border-radius: 1rem;
   background-color: #598ad4;
@@ -381,4 +386,14 @@ p {
 }
 .home .serve_you .btn button:hover {
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .home .serve_you .btn button {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .home .serve_you .btn button {
+    font-size: 2rem;
+  }
 }
