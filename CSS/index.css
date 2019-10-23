@@ -138,7 +138,7 @@ body {
   color: #3b3939;
 }
 h1 {
-  font-size: 5vw;
+  font-size: 9rem;
   font-family: 'Indie Flower', cursive;
 }
 @media (max-width: 1400px) {
@@ -172,7 +172,13 @@ h1 {
   }
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 6rem;
+  font-family: 'Indie Flower', cursive;
+}
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 5rem;
+  }
 }
 h3 {
   font-size: 2.5rem;
@@ -256,7 +262,17 @@ p {
 }
 @media (max-width: 1400px) {
   .nav-bar a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-bar a {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 800px) {
+  .nav-bar a {
+    font-size: 1.8rem;
   }
 }
 .home {
@@ -396,4 +412,7 @@ p {
   .home .serve_you .btn button {
     font-size: 2rem;
   }
+}
+.about header h2 {
+  margin-bottom: 4%;
 }
