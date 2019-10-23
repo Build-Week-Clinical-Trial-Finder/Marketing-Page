@@ -134,17 +134,12 @@ html {
 }
 html,
 body {
-  color: black;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: black;
+  font-family: 'Barlow', sans-serif;
+  color: #3b3939;
 }
 h1 {
   font-size: 5vw;
+  font-family: 'Indie Flower', cursive;
 }
 h2 {
   font-size: 3.2rem;
@@ -161,16 +156,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.parallax {
-  background-image: url('img/bright-cardiac-cardiology-433267.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .nav-bar {
   margin-top: 2.5%;
+  margin-bottom: 8%;
 }
 .nav-bar nav {
   display: flex;
@@ -204,9 +192,11 @@ p {
   margin-bottom: 25%;
 }
 .home .serve_you .i_am div i {
+  color: #598ad4;
   margin-bottom: 15%;
 }
 .home .serve_you .i_am div h3 {
+  color: #0c084c;
   margin-bottom: 8%;
 }
 .home .serve_you .btn {
