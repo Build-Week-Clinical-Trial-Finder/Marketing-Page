@@ -3,19 +3,25 @@
 
    header {
       h1 {
-         // border: 1px solid red;
-   
+
+         @media @phone {
+            text-align: center;
+         }
+         
          span {
-            // border: 1px solid green;
             padding-left: 6%;
             margin-top:2%;
          }
       }
 
       img {
-         // border: 1px solid green;
          width: 65%;
          margin: 10% 0 15% 35%;
+
+         @media @phone {
+            width: 100%;
+            margin: 15% auto;
+         }
       }
    } 
 
@@ -23,38 +29,100 @@
    .serve_you {
       h1 {
          text-align: center;
-         margin-bottom: 20%;
+         margin-bottom: 18%;
+
+         @media @phone {
+            margin-bottom: 30%;
+         }
       }
 
       .i_am {
          display: flex;
          justify-content: space-between;
 
+         @media @phone {
+            flex-direction: column;
+         }
+
          div {
             width: 25%;
             margin-bottom: 25%;
-            // border: 1px solid green;
+            
+            @media @phone {
+               width: 100%;
+               display: flex;
+               justify-content: space-between;
+            }
 
             i {
                color: #598ad4;
                margin-bottom: 15%;
+
+               @media @phone {
+                  width: 30%;
+               }
+            }
+
+            .fa-5x {
+               display: none;
+               
+               @media @tablet {
+                  display: inline-block;
+                  margin-bottom: 15%;
+               }
+
+               @media @phone {
+                  display: none;
+               }
+             }
+
+            .fa-6x {
+               display: none;
+               
+               @media @smDesktop {
+                  display: inline-block;
+                  margin-bottom: 15%;
+               }
+
+               @media @tablet {
+                  display: none;
+               }
+
+               @media @phone {
+                  display: inline-block;
+               }
+             }
+
+            .fa-8x {
+               @media @smDesktop {
+                  display: none;
+               }
+
             }
 
             h3 {
                color: #0c084c;
                margin-bottom: 8%;
+
+               @media @phone {
+                  width: 30%;
+               }
+            }
+
+            p {
+               @media @phone {
+                  width: 30%;
+               }
             }
          }
       }
 
       .btn {
-         // border: 1px solid green;
          width: 100%;
          display: flex;
          justify-content: center;
          margin-bottom: 25%;
          
-
          button {
             font-size: 2vw;
             padding: 1% 5%;

@@ -1,7 +1,7 @@
 .nav-bar {
    // border: 1px solid blue;
    margin-top: 2.5%;
-   margin-bottom: 8%;
+   margin-bottom: 10%;
     
    nav {
       display: flex;
@@ -9,12 +9,41 @@
       align-items: flex-end;
    }
 
+   .desktop_nav {
+      @media @tablet {
+         justify-content: center;
+      }
+
+      a {
+         @media @tablet {
+            display: none;
+         }
+      }
+   }
+
+   .tablet_nav {
+      display: none;
+      margin-top: 2.5%;
+      
+
+      @media @tablet {
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         
+      }
+   }
+
    a {
-      font-size: 1.6rem;
+      font-size: 2rem;
       text-decoration: none;
       color: #0c084c;
       &:hover {
          text-decoration: underline;
+      }
+
+      @media @lgDesktop {
+         font-size: 1.6rem;
       }
    }
 }
