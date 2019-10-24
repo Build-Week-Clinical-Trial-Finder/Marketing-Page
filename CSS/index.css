@@ -223,6 +223,11 @@ h4 {
     font-size: 1.4rem;
   }
 }
+@media (max-width: 800px) {
+  h4 {
+    font-size: 1.7rem;
+  }
+}
 p {
   font-size: 3.2rem;
   line-height: 1.4;
@@ -448,6 +453,12 @@ p {
 .about header h2 {
   margin-bottom: 6%;
 }
+@media (max-width: 800px) {
+  .about header h2 {
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}
 .about header div {
   display: flex;
   justify-content: space-between;
@@ -455,30 +466,80 @@ p {
 .about header div p {
   width: 45%;
 }
+@media (max-width: 500px) {
+  .about header div p {
+    width: 100%;
+  }
+}
 .about header div img {
   width: 45%;
 }
-.about .team {
-  margin-bottom: 15%;
+@media (max-width: 500px) {
+  .about header div img {
+    display: none;
+  }
 }
 .about .team h2 {
   margin-top: 8%;
+}
+@media (max-width: 800px) {
+  .about .team {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
 }
 @media (max-width: 1080px) {
   .about .team h3 {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 800px) {
+  .about .team h3 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 731px) {
+  .about .team h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  .about .team h3 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .about .team h3 {
+    font-size: 2.2rem;
+  }
+}
 .about .team .squad {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 8%;
-  border: 1px solid blue;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .about .team .squad {
+    justify-content: space-around;
+  }
 }
 .about .team .squad div {
-  width: 25%;
+  width: 28%;
   text-align: center;
-  border: 1px solid red;
+  margin-bottom: 10%;
+}
+@media (max-width: 800px) {
+  .about .team .squad div {
+    width: 36%;
+  }
+}
+@media (max-width: 500px) {
+  .about .team .squad div {
+    width: 65%;
+  }
 }
 .about .team .squad div img {
   width: 100%;
