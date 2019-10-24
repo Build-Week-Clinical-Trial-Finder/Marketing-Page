@@ -1,6 +1,8 @@
 .about {
+   margin-bottom: 15%;
+
    header {
-      margin-bottom: 10%;
+      margin-bottom: 25%;
 
       h2 {
          margin-bottom: 6%;
@@ -17,16 +19,30 @@
 
          p {
             width: 45%;
+            font-size: 2.4rem;
+
+            @media @midDesktop {
+               font-size: 1.8rem;
+            }
+
+            @media @tablet {
+               font-size: 1.5rem;
+            }
+
+            @media @smTablet {
+               width: 100%;
+               font-size: 1.8rem;
+            }
 
             @media @phone {
-               width: 100%;
+
             }
          }
 
          img {
             width: 45%;
 
-            @media @phone {
+            @media @smTablet {
                display: none;
             }
          }
