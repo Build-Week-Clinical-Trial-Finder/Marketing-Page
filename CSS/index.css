@@ -637,3 +637,6 @@ footer .foot .foot_nav a:hover {
   margin-bottom: 8%;
   border: 4px solid #598ad4;
 }
+.about .team .squad div h4 {
+  margin-bottom: 5%;
+}
