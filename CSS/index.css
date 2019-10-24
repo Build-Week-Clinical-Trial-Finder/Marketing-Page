@@ -425,7 +425,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 .home .serve_you .btn button {
   font-size: 3em;
@@ -452,6 +452,11 @@ p {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20%;
+}
+@media (max-width: 500px) {
+  .home .tag {
+    width: 65%;
+  }
 }
 footer {
   background-color: #2b2b2b;
@@ -521,7 +526,7 @@ footer .foot .foot_nav a:hover {
   margin-bottom: 15%;
 }
 .about header {
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 .about header h2 {
   margin-bottom: 6%;
