@@ -640,3 +640,23 @@ footer .foot .foot_nav a:hover {
 .about .team .squad div h4 {
   margin-bottom: 5%;
 }
+@media (max-width: 605px) {
+  .about .team .squad div h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 533px) {
+  .about .team .squad div h4 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  .about .team .squad div h4 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 533px) {
+  .about .team .squad div h4 {
+    font-size: 1.6rem;
+  }
+}
