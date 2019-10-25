@@ -1,3 +1,9 @@
+.hide {
+  display: none;
+}
+.show {
+  display: inline-block;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -467,8 +473,8 @@ footer {
 footer .foot {
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
 }
 @media (max-width: 550px) {
   footer .foot {
@@ -523,7 +529,7 @@ footer .foot .foot_nav a:hover {
   }
 }
 .about {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 .about header {
   margin-bottom: 20%;
@@ -652,11 +658,6 @@ footer .foot .foot_nav a:hover {
 }
 @media (max-width: 500px) {
   .about .team .squad div h4 {
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 533px) {
-  .about .team .squad div h4 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 }

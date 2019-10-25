@@ -1,14 +1,14 @@
 footer {
-   background-color: rgb(43, 43, 43);
+   background-color: @foottGray;
    height: 90px;
    display: flex;
    align-items: center;
 
    .foot {
       margin: 0 auto;
-      display: flex;
+      .flex(flex, space-between);
       flex-direction: row;
-      justify-content: space-between;
+      
 
       @media (max-width: 550px) {
          flex-direction: column;
@@ -18,8 +18,7 @@ footer {
 
       .foot_nav {
          width: 20%;
-         display: flex;
-         justify-content: space-between;
+         .flex(flex, space-between);
 
          @media @lgDesktop {
             width: 30%;

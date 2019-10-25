@@ -4,8 +4,7 @@
    margin-bottom: 10%;
    
    nav {
-      display: flex;
-      justify-content: space-between;
+      .flex(flex, space-between);
       align-items: flex-end;
    }
 
@@ -16,19 +15,18 @@
 
       a {
          @media @tablet {
-            display: none;
+            .hide();
          }
       }
    }
 
    .tablet_nav {
-      display: none;
+      .hide();
       margin-top: 2.5%;
       
       @media @tablet {
          width: 100%;
-         display: flex;
-         justify-content: space-around;
+         .flex(flex, space-around);
       }
 
       @media @phone {
@@ -39,7 +37,7 @@
    a {
       font-size: 2rem;
       text-decoration: none;
-      color: #0c084c;
+      color: @hNavy;
       &:hover {
          text-decoration: underline;
       }

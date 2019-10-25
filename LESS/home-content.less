@@ -36,8 +36,7 @@
       }
 
       .i_am {
-         display: flex;
-         justify-content: space-between;
+         .flex(flex, space-between);
 
          @media @phone {
             flex-direction: column;
@@ -49,12 +48,11 @@
             
             @media @phone {
                width: 100%;
-               display: flex;
-               justify-content: space-between;
+               .flex(flex, space-between);
             }
 
             i {
-               color: #598ad4;
+               color: @iBlue;
                margin-bottom: 15%;
 
                @media @phone {
@@ -63,38 +61,38 @@
             }
 
             .fa-5x {
-               display: none;
+               .hide();
                
                @media @tablet {
-                  display: inline-block;
+                  .show();
                   margin-bottom: 15%;
                }
 
                @media @phone {
-                  display: none;
+                  .hide();
                }
              }
 
             .fa-6x {
-               display: none;
+               .hide();
                
                @media @smDesktop {
-                  display: inline-block;
+                  .show();
                   margin-bottom: 15%;
                }
 
                @media @tablet {
-                  display: none;
+                  .hide();
                }
 
                @media @phone {
-                  display: inline-block;
+                  .show();
                }
              }
 
             .fa-8x {
                @media @smDesktop {
-                  display: none;
+                  .hide();
                }
 
             }
@@ -117,15 +115,14 @@
 
       .btn {
          width: 100%;
-         display: flex;
-         justify-content: center;
+         .flex(flex, center);
          margin-bottom: 20%;
          
          button {
             font-size: 3em;
             padding: 1% 5%;
             border-radius: 1rem;
-            background-color: #598ad4;
+            background-color: @iBlue;
             color: white;
             &:hover {
                cursor: pointer;
